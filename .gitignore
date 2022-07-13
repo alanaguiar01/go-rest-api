@@ -24,3 +24,5 @@ go.work
 .env
 
 node_modules
+
+yarn*.log
