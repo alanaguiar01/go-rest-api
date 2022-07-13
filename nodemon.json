@@ -1,0 +1,16 @@
+{
+    "verbose": false,
+    "quiet": true,
+    "ignore": [
+      "node_modules/*",
+      "dist/*"
+    ],
+    "watch": [
+      "./",
+      ".env"
+    ],
+    "ext": "go env html",
+    "execMap": {
+      "go": "yarn cross-env go run"
+    }
+  }
